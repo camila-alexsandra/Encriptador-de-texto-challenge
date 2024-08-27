@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-co">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de texto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="hdrlog">
+                <div><img class= "logo-encriptador" src="./assets/detective-encriptador.png" alt="Logo encriptador"></div>
+                <div><img class= "logo-encriptador-de-texto" src="./assets/detective-encriptador.png" alt="Logo encriptador de texto"></div>
+                <div>
+                    <button class="git-hub" onclick="window.open('https://github.com/camila-alexsandra/Encriptador-de-texto-challenge')"><img class=git-hub src="./assets/githubazul.png" alt="Logo githubazul"</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="caja_uno">
+                    <div>
+                        <textarea class="caja_uno_texto" cols="40" placeholder= "Ingresa el texto aquí"></textarea>
+                        <div class="caja_uno_texto_informacion">
+                            <h1>
+                                <span class="caja_uno_texto_informacion_warning"></span>
+                                Solo letras minúsculas y sin acentos
+                            </h1>
+                            <div id="mensaje_error" style="display: none;">
+                                <div class="mensaje_caja">
+                                    <div class="mensaje_atencion"></div>
+                                    <div class="mensaje_icono" aria-hidden="true">
+                                        <span class="fa-solid--hand-point-down"></span>
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="botones">
+                            <button class="boton_encriptar" onclick="boton_encriptar()">Encriptar</button>
+                            <button class="boton_desencriptar" onclick="boton_desencriptar()">Desencriptar</button>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+            <section>
+                <div class="caja_dos">
+                    <div>
+                        <textarea class="caja_dos_texto_salida" cols="40" readonly></textarea>
+                            <div class="copiar_informacion">
+                                <p class="nota_mensaje">Ningún mensaje fue encontrado</p>
+                                <p class="nota_in">Ingresa el texto que deseas encriptar o desencriptar</p>
+                            </div>
+                        <div class="mensaje_aviso" id="mensaje_copiado">Texto copiado!</div>
+                    </div>
+                    <div class="limpiar">
+                        <button class="boton_copiar" name="copiar" onclick="copiar()">Copiar</button>
+                        <button class="boton_limpiar" onclick="limpiar()"><span class="solar--trash-bin-minimalistic-broken"></span>
+                        <img class="boton_refresh"><span class="boton_refresh_solid"></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>        
+        </footer>
+            <p class="pie_de_pagina">Desarrollado por Camila Alexsandra López Saavedra 2024</p>
+        </footer>       
+    </body>
+    <script 
+        src="script.js">
+    </script>
+</html>
