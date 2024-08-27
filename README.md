@@ -3,7 +3,7 @@
 
 <p>
 Este trabajo es un encriptador de texto que convierte los mensajes legibles en un código cifrado.
-Es un desafío propuesto por **"Alura latam"**, curso desarrollado para el aprendizaje inicial de programación utilizando lenguajes estándar como HTML, CSS y JavaScript.
+Es un desafío propuesto por "Alura latam", curso desarrollado para el aprendizaje inicial de programación utilizando lenguajes estándar como HTML, CSS y JavaScript.
 <p>
 
 <p1>
