@@ -2,6 +2,8 @@
 <h1 align="center">ENCRIPTADOR DE TEXTO</h1>
 
 <p>
+![image](https://github.com/user-attachments/assets/13ea133f-46bd-413e-9125-e0555c2e1390)
+
 Este trabajo es un encriptador de texto que convierte los mensajes legibles en un código cifrado.
 Es un desafío propuesto por "Alura latam", curso desarrollado para el aprendizaje inicial de programación utilizando lenguajes estándar como HTML, CSS y JavaScript.
 <p>
