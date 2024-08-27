@@ -14,16 +14,18 @@ Las llaves de encriptación son:
 - La letra "a" es convertida para "ai"
 - La letra "o" es convertida para "ober"
 - La letra "u" es convertida para "ufat"
+</p1>
 
 <p2>
 - Funciona con minúsculas.
 - No funciona con palabras con acentos ni caracteres especiales.
 - Permite encriptar y desencriptar.
-
-*Mi código secreto es:*
-graicimesais ailufatrai laitaim poberr toberdais sufats enternsenterñainzais
 </p2>
+
 <p3>
+  Mi mensaje por descifrar es: graicimesais ailufatrai laitaim poberr toberdais sufats enternsenterñainzais
+</p3>
 
+<p4>
 Este trabajo es el primero que realizo, por este motivo aún necesita perfeccionarse.
-
+</p4>
